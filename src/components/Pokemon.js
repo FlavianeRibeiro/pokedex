@@ -26,9 +26,7 @@ const Pokemon = (props)=>{
                                 )
                             })}
                         </div>
-                        <button className="pokemon-heart-btn" onClick={onHeartClick}>
-                            {heart}
-                        </button>
+                        <button className="pokemon-heart-btn" onClick={onHeartClick}> {heart} </button>
                     </div>
                 </div>
             </div>
